@@ -1,0 +1,32 @@
+{
+  "name": "semid",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.29",
+    "@fortawesome/free-solid-svg-icons": "^5.13.1",
+    "@fortawesome/vue-fontawesome": "^0.1.10",
+    "@nuxtjs/axios": "^5.11.0",
+    "@types/animejs": "^3.1.1",
+    "@types/node": "^14.0.14",
+    "animejs": "^3.2.0",
+    "axios": "^0.19.2",
+    "connect": "^3.7.0",
+    "express": "^4.17.1",
+    "http": "^0.0.1-security",
+    "node-sass": "^4.14.1",
+    "nuxt": "^2.13.0",
+    "redirect-ssl": "^2.0.0",
+    "sass-loader": "^8.0.2",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@nuxt/typescript-build": "^1.0.3"
+  }
+}

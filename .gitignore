@@ -1,0 +1,6 @@
+/.editorconfig
+/.env
+/.nuxt
+/.vscode
+/node_modules
+/yarn-error.log
