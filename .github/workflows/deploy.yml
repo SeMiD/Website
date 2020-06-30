@@ -12,12 +12,12 @@ jobs:
       uses: appleboy/ssh-action@master
       with:
         host: ${{ secrets.SEMIDHOST }}
-        username: ${{ secrets.SEMIDUSER }}
-        key: ${{ secrets.SEMIDKEYTEST }}
+        username: ${{ secrets.SSHUSERNAME }}
+        password: ${{ secrets.SSHPASSWORD }}
         script: |
-              cd /home/SeMiD/SeMiD
+              cd /home/PreMiD/SeMiD
               git reset --hard
               git pull
               yarn
               yarn build
-              pm2 reload /home/SeMiD/ecosystem.config.js --only semid-website
+              pm2 reload /home/PreMiD/ecosystem.config.js --only SeMiD-website
