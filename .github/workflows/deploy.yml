@@ -20,4 +20,4 @@ jobs:
               git pull
               yarn
               yarn build
-              pm2 reload /home/PreMiD/ecosystem.config.js --only semid-website
+              pm2 reload /home/SeMiD/ecosystem.config.js --only semid-website
