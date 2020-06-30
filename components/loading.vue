@@ -2,7 +2,10 @@
   <div class="loading">
     <img v-if="asd == true" :src="require(`~/assets/gifs/${gif}.gif`)" />
     <div class="text">
-      <h1 class="t"><span class="text-highlight">SeMiD</span> is loading...</h1>
+      <h1 class="t">
+        <span class="text-highlight">SeMiD</span>
+        is loading...
+      </h1>
       <p class="t">pls wait kthx</p>
     </div>
   </div>
@@ -22,16 +25,17 @@ export default Vue.extend({
   },
   beforeMount() {
     let gifs = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"];
-
     this.gif = gifs[Math.floor(gifs.length * Math.random())];
-    this.asd = true;
   },
   mounted() {
+    this.asd = true;
+
     anime({
       targets: ".text .t",
       translateX: [20, 0],
       direction: "alternate",
-      delay: anime.stagger(100)
+      delay: anime.stagger(100),
+      easing: "spring(1, 80, 1, 0)"
     });
   }
 });
