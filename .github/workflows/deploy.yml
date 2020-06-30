@@ -1,0 +1,23 @@
+name: SeMiD-DeployTM
+
+on:
+  push:
+    branches: [ master ]
+    
+jobs:
+  SeMiD-DeployTM:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Deploying
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.SEMIDHOST }}
+        username: ${{ secrets.SEMIDUSER }}
+        key: ${{ secrets.SEMIDKEYTEST }}
+        script: |
+              cd /home/SeMiD/SeMiD
+              git reset --hard
+              git pull
+              yarn
+              yarn build
+              pm2 reload /home/PreMiD/ecosystem.config.js --only semid-website
