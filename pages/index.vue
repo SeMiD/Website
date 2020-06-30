@@ -110,7 +110,7 @@ export default Vue.extend({
   },
   async asyncData() {
     return {
-      info: (await axios.get("http://localhost:3000/api/activity")).data
+      info: (await axios.get("http://localhost:3006/api/activity")).data
     };
   },
   data() {
