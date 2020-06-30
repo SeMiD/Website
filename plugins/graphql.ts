@@ -4,7 +4,7 @@ export default ({ app }: any) => {
   const gql = (query: string) =>
     new Promise((resolve, reject) => {
       let headers = {
-        Authorization: `bearer 836f2c3c5730acfacfc243616b80137524e3ffa3`
+        Authorization: `bearer ${process.env.GITHUB_TOKEN}`
       };
       app
         .$axios({
