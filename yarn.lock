@@ -827,17 +827,17 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
-"@fortawesome/fontawesome-common-types@^0.2.29", "@fortawesome/fontawesome-common-types@^0.2.32":
+"@fortawesome/fontawesome-common-types@^0.2.32":
   version "0.2.32"
   resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.2.32.tgz#3436795d5684f22742989bfa08f46f50f516f259"
   integrity sha512-ux2EDjKMpcdHBVLi/eWZynnPxs0BtFVXJkgHIxXRl+9ZFaHPvYamAfCzeeQFqHRjuJtX90wVnMRaMQAAlctz3w==
 
-"@fortawesome/fontawesome-svg-core@^1.2.29":
-  version "1.2.29"
-  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-svg-core/-/fontawesome-svg-core-1.2.29.tgz#34ef32824664534f9e4ef37982ebf286b899a189"
-  integrity sha512-xmPmP2t8qrdo8RyKihTkGb09RnZoc+7HFBCnr0/6ZhStdGDSLeEd7ajV181+2W29NWIFfylO13rU+s3fpy3cnA==
+"@fortawesome/fontawesome-svg-core@^1.2.32":
+  version "1.2.32"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-svg-core/-/fontawesome-svg-core-1.2.32.tgz#da092bfc7266aa274be8604de610d7115f9ba6cf"
+  integrity sha512-XjqyeLCsR/c/usUpdWcOdVtWFVjPbDFBTQkn2fQRrWhhUoxriQohO2RWDxLyUM8XpD+Zzg5xwJ8gqTYGDLeGaQ==
   dependencies:
-    "@fortawesome/fontawesome-common-types" "^0.2.29"
+    "@fortawesome/fontawesome-common-types" "^0.2.32"
 
 "@fortawesome/free-solid-svg-icons@^5.15.1":
   version "5.15.1"
@@ -2101,13 +2101,6 @@ axios-retry@^3.1.9:
   dependencies:
     is-retry-allowed "^1.1.0"
 
-axios@^0.19.2:
-  version "0.19.2"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-0.19.2.tgz#3ea36c5d8818d0d5f8a8a97a6d36b86cdc00cb27"
-  integrity sha512-fjgm5MvRHLhx+osE2xoekY70AhARk3a6hkN+3Io1jc00jtquGvxYlKlsFUhmUET0V5te6CcZI7lcv2Ym61mjHA==
-  dependencies:
-    follow-redirects "1.5.10"
-
 axios@^0.21.0:
   version "0.21.0"
   resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.0.tgz#26df088803a2350dff2c27f96fef99fe49442aca"
@@ -3242,13 +3235,6 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3:
   dependencies:
     ms "2.0.0"
 
-debug@=3.1.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
-  integrity sha512-OX8XqP7/1a9cqkxYw2yXss15f26NKWBpDXQd0/uK/KPqdQhxbPa994hnzjcE2VqQpDslf55723cKPUOGSmMY3g==
-  dependencies:
-    ms "2.0.0"
-
 debug@^4.1.0, debug@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.1.1.tgz#3b72260255109c6b589cee050f1d516139664791"
@@ -3962,19 +3948,7 @@ flush-write-stream@^1.0.0:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
 
-follow-redirects@1.5.10:
-  version "1.5.10"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.5.10.tgz#7b7a9f9aea2fdff36786a94ff643ed07f4ff5e2a"
-  integrity sha512-0V5l4Cizzvqt5D44aTXbFZz+FtyXV1vrDN6qrelxtfYQKW0KO0W2T/hkE8xvGa/540LkZlkaUjO4ailYTFtHVQ==
-  dependencies:
-    debug "=3.1.0"
-
 follow-redirects@^1.0.0, follow-redirects@^1.10.0:
-  version "1.13.0"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.0.tgz#b42e8d93a2a7eea5ed88633676d6597bc8e384db"
-  integrity sha512-aq6gF1BEKje4a9i9+5jimNFIpq4Q1WiwBToeRK5NvZBd/TRsmW8BsJfOEGkr76TbOyPVD3OVDN910EcUNtRYEA==
-
-follow-redirects@^1.10.0:
   version "1.13.0"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.0.tgz#b42e8d93a2a7eea5ed88633676d6597bc8e384db"
   integrity sha512-aq6gF1BEKje4a9i9+5jimNFIpq4Q1WiwBToeRK5NvZBd/TRsmW8BsJfOEGkr76TbOyPVD3OVDN910EcUNtRYEA==
