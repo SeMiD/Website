@@ -14,7 +14,7 @@
     "@fortawesome/vue-fontawesome": "^0.1.10",
     "@nuxtjs/axios": "^5.12.3",
     "@types/animejs": "^3.1.2",
-    "@types/node": "^14.14.10",
+    "@types/node": "^15.0.1",
     "animejs": "^3.2.0",
     "axios": "^0.21.0",
     "connect": "^3.7.0",
